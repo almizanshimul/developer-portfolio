@@ -5,6 +5,7 @@
     padding: 0;
     text-decoration: none;
     font-family: 'Lato', sans-serif;
+    transition: 0.7s;
 }
 section{
     padding:60px 20px;
@@ -19,7 +20,8 @@ section{
     background-repeat: no-repeat;
 }
 .half-col{
-    width: 50%;
+    width: 48%;
+    padding: 2%;
 }
 .ver-cen{
     display: flex;
@@ -36,14 +38,14 @@ h2{
 h2 span{
     color: orange;
 }
-.half-col p:nth-child(4){
+.subtitle{
     font-size: 20px;
     font-weight: 900;
 }
-.half-col p:nth-child(6){
+.half-col p{
     font-size: 18px;
 }
-.half-col a{
+.button{
     width: fit-content;
     font-size: 20px;
     color: white;
@@ -53,4 +55,10 @@ h2 span{
     border-radius: 6px;
     text-transform: uppercase;
     background: linear-gradient(to right, #FFCC1B, #FF9F33);
+}
+.button:hover{
+    background: linear-gradient(to left, #FFCC1B, #FF9F33);
+}
+.dream{
+    background: url(../images/dream-bg.png) no-repeat center right;
 }
