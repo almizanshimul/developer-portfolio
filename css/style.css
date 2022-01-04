@@ -92,3 +92,8 @@ h2 span{
     border-image: linear-gradient(green, red);
     border-image-slice: 1;
 }
+footer p{
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+}
